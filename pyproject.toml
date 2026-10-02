@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parts-cost"
+version = "0.1.0"
+description = "修理厂配件成本核算模块：按业务时间的移动加权平均计价，支持补录与作废后历史重算"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["parts_cost"]
